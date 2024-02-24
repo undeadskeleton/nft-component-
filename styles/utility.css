@@ -1,6 +1,6 @@
 :root {
   /* Primary Colors */
-  --primary-soft-blue: hsl(215, 51%, 70%); /* Soft blue */
+  --primary-soft-blue: hsl(178, 100%, 50%); /* Soft blue */
   --primary-cyan: hsl(178, 100%, 50%); /* Cyan */
 
 
@@ -9,5 +9,10 @@
 --neutral-very-dark-blue-card-bg: hsl(216, 50%, 16%); /* Very dark blue (card BG) */
 --neutral-very-dark-blue-line: hsl(215, 32%, 27%); /* Very dark blue (line) */
 --neutral-white: hsl(0, 0%, 100%); /* White */
+}
+
+
+.section{
+  margin:1rem 0;
 }
 

@@ -1,0 +1,5 @@
+.main{
+  background-color: var(--neutral-very-dark-blue-card-bg);
+ border-radius:20px;
+ padding:1.5rem;
+}

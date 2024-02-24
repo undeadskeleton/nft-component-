@@ -1,0 +1,7 @@
+.hero {
+  color: var(--neutral-white);
+}
+
+.hero__desc{
+  color:var(--neutral-very-dark-blue-line);
+}
