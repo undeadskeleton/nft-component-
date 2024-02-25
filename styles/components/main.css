@@ -1,5 +1,12 @@
-.main{
+.main {
   background-color: var(--neutral-very-dark-blue-card-bg);
- border-radius:20px;
- padding:1.5rem;
+  border-radius: 20px;
+  padding: 1.5rem;
+}
+
+@media (min-width: 1440px) {
+  .main {
+    width: 22rem;
+    margin-top: 5.5rem;
+  }
 }

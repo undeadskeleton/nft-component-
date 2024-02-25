@@ -1,48 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <title>NFT preview card component</title>
+    <!-- FONT-FILES -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
 
-  <title>NFT preview card component</title>
+    <!-- CSS-FILE -->
+    <link rel="stylesheet" href="styles/global.css" />
+    <link rel="stylesheet" href="styles/components/main.css" />
+    <link rel="stylesheet" href="styles/components/nft-image.css" />
+    <link rel="stylesheet" href="styles/components/hero.css" />
+    <link rel="stylesheet" href="styles/styles.css" />
+    <link rel="stylesheet" href="styles/utility.css" />
 
-  <!-- CSS-FILE -->
-  <link rel="stylesheet" href="styles/global.css">
-  <link rel="stylesheet" href="styles/components/main.css">
-  <link rel="stylesheet" href="styles/components/nft-image.css">
-  <link rel="stylesheet" href="styles/components/hero.css">
-  <link rel="stylesheet" href="styles/utility.css">
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  </head>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <body>
+    <main class="main">
+      <section class="nft-image">
+        <img
+          class="nft-img"
+          src="Images/image-equilibrium.jpg"
+          alt="nft image"
+        />
+      </section>
+      <section class="hero">
+        <h1 class="hero__title section">Equilibrium #3429</h1>
 
-</head>
+        <p class="hero__desc section">
+          Our Equilibrium collection promotes balance and calm.
+        </p>
 
-<body>
-  <main class="main">
-    <section class="nft-image">
-      <img class="nft-img" src="Images/image-equilibrium.jpg" alt="nft image">
-    </section>
-    <section class="hero">
-      <h1 class="hero__title section"> Equilibrium #3429
-      </h1>
-
-      <p class="hero__desc section">Our Equilibrium collection promotes balance and calm.</p>
-
-      <div class="nft__amount">
-        <span class="amount">0.041 ETH
-        </span>
-        <span class="time-left">3 days left
-        </span>
-      </div>
-
-      Creation of Jules Wyvern
-    </section>
-  </main>
-
-
-</body>
-
+        <div class="nft__amount section">
+          <span class="amount">
+            <img class="etherium-icon" src="Images/icon-ethereum.svg" alt="" />
+            <span>0.041 ETH</span>
+          </span>
+          <span class="time-left"
+            ><img src="Images/icon-clock.svg" alt="" /><span>3 days left</span>
+          </span>
+        </div>
+        <hr class="section" />
+        <div class="hero__author">
+          <img class="hero__author-pic" src="Images/image-avatar.png" alt="" />
+          <p>Creation of <span class="hero__author-name">Jules Wyvern</span></p>
+        </div>
+      </section>
+    </main>
+  </body>
 </html>

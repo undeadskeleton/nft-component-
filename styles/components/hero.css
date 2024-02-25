@@ -2,6 +2,65 @@
   color: var(--neutral-white);
 }
 
-.hero__desc{
-  color:var(--neutral-very-dark-blue-line);
+.hero > * {
+  /* border: 1px solid red; */
+  flex: 1;
+}
+.hero__title {
+  font-weight: 600;
+  font-size: 1.4rem;
+}
+
+.hero__desc {
+  color: var(--primary-soft-blue);
+}
+
+@media (min-width: 1440px) {
+  .hero__desc {
+    font-size: 1.12rem;
+  }
+}
+
+.nft__amount {
+  display: flex;
+  justify-content: space-between;
+}
+
+.amount {
+  color: var(--primary-cyan);
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-weight: 600;
+}
+
+.time-left {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: var(--primary-soft-blue);
+}
+
+.hero__author {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+hr {
+  border-color: var(--primary-soft-blue);
+}
+
+.hero__author {
+  color: var(--primary-soft-blue);
+}
+.hero__author-pic {
+  border: 1px solid var(--neutral-white);
+  width: 2rem;
+  border-radius: 50%;
+  object-fit: contain;
+}
+
+.hero__author-name {
+  color: var(--neutral-white);
 }
